@@ -1,7 +1,10 @@
 
 
-
 body {font-family:Arial, Helvetica, sans-serif ;}
 
 grouped selectors p, ul, td, th {color: deepskyblue;}
+
+.evenrow {background-color: dodgerblue;}
+.intro {background-color: yellow;}
+
 

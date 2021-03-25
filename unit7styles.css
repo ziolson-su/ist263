@@ -1,0 +1,34 @@
+h1 {color: #ff0000;}
+
+a:link {color: #00ff00;}
+a:visited {color: #0000ff;}
+a:hover {color: #999999;}
+/* hex color requires the pound sign */
+/* psuedo selectors need a colon between selector and its state */
+
+.oneoff:hover {
+    color: #0283bf;
+    background-color: #5d02bf;
+}
+/* you can use any selector with psuedo selectors */
+/* you can use any selector with psuedo selectors */
+
+body { background-color: #000000;
+    background-image: url(images/image-sized.png);
+    background-size: 600px;
+}
+/* file path for background is from the css file */
+/* don't forget the url and parenthesis for background image */
+
+p {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 50px;
+    border: 5px solid #000000
+}
+
+.mylink {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 20px;
+}
