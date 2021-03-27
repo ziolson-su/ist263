@@ -1,0 +1,19 @@
+h1 {color: aqua;}
+
+body { color: aquamarine;
+    background-color: #276678;
+      background-size: 600px;}
+
+text {color: #1687a7;}
+
+link {color: #d3e0ea;}
+
+nav {background-color: #f6f5f5;}
+
+nav a {color: darkslategray;}
+
+nav a:hover {background-color: lightslategrey;}
+
+nav {padding: 10px;}
+
+nav {margin-bottom: 30px;}
