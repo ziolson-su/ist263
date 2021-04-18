@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,18 @@
         <style>
             .header {max-width: 100%;}
             .flex {flex-wrap: wrap;}
-            
+            h1 {font-size: 60px;}
+            p {font-size: 25px; line-height: 50px;}
+            .skip-to-content-link {
+                   background: aqua;
+                   height: 30px;
+                   left: 50%;
+                   padding: 8px;
+                   position: absolute;
+                   transform: translateY(-100%);
+                   transition: transform 0.3s;
+               }
+               .skip-to-content-link:focus {transform: translateY(0%);}
         </style>
         <title>external style sheet</title>
         <link rel="stylesheet" href="/path/stylesheet.css">
@@ -17,6 +28,9 @@
     <body>
         <nav><a href="/html/">HTML</a>|</nav>
         <h1>Contact</h1>
+        <a class="skip-to-content-link" href="#main">
+            Skip to content
+        </a>
         <p>
             <address>
                 Written by <a href="ziolson@syr.edu">Zachary Olson</a>. <br>
