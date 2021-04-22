@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 11 Participation</title>
+        <script>
+            function FirstFunction() {
+                alert("you left this form element");
+                document.getElementById("message"). innerHTML = "you left this form element";
+            }
+        </script>
+        </head>
+
+        <body>
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="Zach"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Olson"><br><br>
+                <input type="submit" value="Submit">
+                <input type="text" onblur="FirstFunction();">
+              </form> 
+              <div id="message"></div> <!--this is where i will bring up the message-->
+        </body>
+</html>
